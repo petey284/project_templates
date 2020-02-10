@@ -48,10 +48,10 @@ namespace _NAMESPACE_
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                // endpoints.MapGet("/hello", async context =>
+                // {
+                //     await context.Response.WriteAsync("Hello World!");
+                // });
 
                 endpoints.MapControllerRoute(
                     name: "default",
